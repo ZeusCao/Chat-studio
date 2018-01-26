@@ -7,6 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01508441F25939E00EFBDD3 /* PLPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01508421F25939E00EFBDD3 /* PLPlayerViewController.m */; };
+		C01508451F25939E00EFBDD3 /* PLPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01508431F25939E00EFBDD3 /* PLPlayerViewController.xib */; };
+		C02B7E8E1F4BD3DF00B614CE /* RCDLive.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E8D1F4BD3DF00B614CE /* RCDLive.m */; };
+		C02B7EC11F4BD43900B614CE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E931F4BD43900B614CE /* AFHTTPRequestOperation.m */; };
+		C02B7EC21F4BD43900B614CE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E951F4BD43900B614CE /* AFHTTPRequestOperationManager.m */; };
+		C02B7EC31F4BD43900B614CE /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E971F4BD43900B614CE /* AFHTTPSessionManager.m */; };
+		C02B7EC41F4BD43900B614CE /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E9A1F4BD43900B614CE /* AFNetworkReachabilityManager.m */; };
+		C02B7EC51F4BD43900B614CE /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E9C1F4BD43900B614CE /* AFSecurityPolicy.m */; };
+		C02B7EC61F4BD43900B614CE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7E9E1F4BD43900B614CE /* AFURLConnectionOperation.m */; };
+		C02B7EC71F4BD43900B614CE /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EA01F4BD43900B614CE /* AFURLRequestSerialization.m */; };
+		C02B7EC81F4BD43900B614CE /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EA21F4BD43900B614CE /* AFURLResponseSerialization.m */; };
+		C02B7EC91F4BD43900B614CE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EA41F4BD43900B614CE /* AFURLSessionManager.m */; };
+		C02B7ECA1F4BD43900B614CE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C02B7EA51F4BD43900B614CE /* LICENSE */; };
+		C02B7ECB1F4BD43900B614CE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EA61F4BD43900B614CE /* README.md */; };
+		C02B7ECC1F4BD43900B614CE /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EA91F4BD43900B614CE /* AFNetworkActivityIndicatorManager.m */; };
+		C02B7ECD1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EAB1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.m */; };
+		C02B7ECE1F4BD43900B614CE /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EAD1F4BD43900B614CE /* UIAlertView+AFNetworking.m */; };
+		C02B7ECF1F4BD43900B614CE /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EAF1F4BD43900B614CE /* UIButton+AFNetworking.m */; };
+		C02B7ED01F4BD43900B614CE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EB21F4BD43900B614CE /* UIImageView+AFNetworking.m */; };
+		C02B7ED11F4BD43900B614CE /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EB51F4BD43900B614CE /* UIProgressView+AFNetworking.m */; };
+		C02B7ED21F4BD43900B614CE /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EB71F4BD43900B614CE /* UIRefreshControl+AFNetworking.m */; };
+		C02B7ED31F4BD43900B614CE /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EB91F4BD43900B614CE /* UIWebView+AFNetworking.m */; };
+		C02B7ED41F4BD43900B614CE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C02B7EBB1F4BD43900B614CE /* LICENSE */; };
+		C02B7ED51F4BD43900B614CE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EBD1F4BD43900B614CE /* MBProgressHUD.m */; };
+		C02B7ED61F4BD43900B614CE /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EBE1F4BD43900B614CE /* README.mdown */; };
+		C02B7ED71F4BD43900B614CE /* RCDLiveKitUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EC01F4BD43900B614CE /* RCDLiveKitUtility.m */; };
+		C02B7F171F4BD44E00B614CE /* RCDLiveGiftMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EE91F4BD44E00B614CE /* RCDLiveGiftMessage.m */; };
+		C02B7F181F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EEB1F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.m */; };
+		C02B7F191F4BD44E00B614CE /* RCDLiveMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EED1F4BD44E00B614CE /* RCDLiveMessageModel.m */; };
+		C02B7F1A1F4BD44E00B614CE /* RCDLiveEmojiBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EF41F4BD44E00B614CE /* RCDLiveEmojiBoardView.m */; };
+		C02B7F1B1F4BD44E00B614CE /* RCDLiveEmojiPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EF61F4BD44E00B614CE /* RCDLiveEmojiPageControl.m */; };
+		C02B7F1C1F4BD44E00B614CE /* RCDLiveInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EF91F4BD44E00B614CE /* RCDLiveInputBar.m */; };
+		C02B7F1D1F4BD44E00B614CE /* RCDLiveInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7EFB1F4BD44E00B614CE /* RCDLiveInputView.m */; };
+		C02B7F511F4BD53000B614CE /* RCDLiveMessageBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F451F4BD53000B614CE /* RCDLiveMessageBaseCell.m */; };
+		C02B7F521F4BD53000B614CE /* RCDLiveMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F471F4BD53000B614CE /* RCDLiveMessageCell.m */; };
+		C02B7F531F4BD53000B614CE /* RCDLiveTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F4A1F4BD53000B614CE /* RCDLiveTextMessageCell.m */; };
+		C02B7F541F4BD53000B614CE /* RCDLiveTipMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F4C1F4BD53000B614CE /* RCDLiveTipMessageCell.m */; };
+		C02B7F551F4BD53000B614CE /* RCDLiveGiftMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F4E1F4BD53000B614CE /* RCDLiveGiftMessageCell.m */; };
+		C02B7F561F4BD53000B614CE /* RCDLivePortraitViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F501F4BD53000B614CE /* RCDLivePortraitViewCell.m */; };
+		C02B7F5F1F4BD5AC00B614CE /* RCDDanmaku.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F581F4BD5AC00B614CE /* RCDDanmaku.m */; };
+		C02B7F601F4BD5AC00B614CE /* RCDDanmakuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F5A1F4BD5AC00B614CE /* RCDDanmakuInfo.m */; };
+		C02B7F611F4BD5AC00B614CE /* RCDDanmakuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F5C1F4BD5AC00B614CE /* RCDDanmakuManager.m */; };
+		C02B7F621F4BD5AC00B614CE /* UIView+RCDDanmaku.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F5E1F4BD5AC00B614CE /* UIView+RCDDanmaku.m */; };
+		C02B7F6B1F4BD5F500B614CE /* RCDLiveAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F641F4BD5F500B614CE /* RCDLiveAttributedLabel.m */; };
+		C02B7F6C1F4BD5F500B614CE /* RCDLiveContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F661F4BD5F500B614CE /* RCDLiveContentView.m */; };
+		C02B7F6D1F4BD5F500B614CE /* RCDLiveTipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F681F4BD5F500B614CE /* RCDLiveTipLabel.m */; };
+		C02B7F6E1F4BD5F500B614CE /* RCDLiveCollectionViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F6A1F4BD5F500B614CE /* RCDLiveCollectionViewHeader.m */; };
+		C02B7F711F4C03C900B614CE /* RCDLiveChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B7F701F4C03C900B614CE /* RCDLiveChatRoomViewController.m */; };
+		C02B7F731F4C05C300B614CE /* RoleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C02B7F721F4C05C300B614CE /* RoleList.plist */; };
 		C0362DC71F21DDAE004A8170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DC61F21DDAE004A8170 /* main.m */; };
 		C0362DCA1F21DDAE004A8170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DC91F21DDAE004A8170 /* AppDelegate.m */; };
 		C0362DCD1F21DDAE004A8170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DCC1F21DDAE004A8170 /* ViewController.m */; };
@@ -15,6 +64,7 @@
 		C0362DD51F21DDAE004A8170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0362DD31F21DDAE004A8170 /* LaunchScreen.storyboard */; };
 		C0362DE01F21DDAE004A8170 /* __testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DDF1F21DDAE004A8170 /* __testTests.m */; };
 		C0362DEB1F21DDAE004A8170 /* __testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DEA1F21DDAE004A8170 /* __testUITests.m */; };
+		DF73A2182D8848312987CF22 /* libPods-直播test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5B8B096568116A4194F9A1 /* libPods-直播test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +85,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1EE4EC9F8E066446B2B7CA /* Pods-直播test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播test.release.xcconfig"; path = "Pods/Target Support Files/Pods-直播test/Pods-直播test.release.xcconfig"; sourceTree = "<group>"; };
+		6B5B8B096568116A4194F9A1 /* libPods-直播test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-直播test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01508411F25939E00EFBDD3 /* PLPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPlayerViewController.h; sourceTree = "<group>"; };
+		C01508421F25939E00EFBDD3 /* PLPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPlayerViewController.m; sourceTree = "<group>"; };
+		C01508431F25939E00EFBDD3 /* PLPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLPlayerViewController.xib; sourceTree = "<group>"; };
+		C02B7E8C1F4BD3DF00B614CE /* RCDLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLive.h; sourceTree = "<group>"; };
+		C02B7E8D1F4BD3DF00B614CE /* RCDLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLive.m; sourceTree = "<group>"; };
+		C02B7E921F4BD43900B614CE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C02B7E931F4BD43900B614CE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C02B7E941F4BD43900B614CE /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C02B7E951F4BD43900B614CE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		C02B7E961F4BD43900B614CE /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C02B7E971F4BD43900B614CE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C02B7E981F4BD43900B614CE /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C02B7E991F4BD43900B614CE /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C02B7E9A1F4BD43900B614CE /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C02B7E9B1F4BD43900B614CE /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C02B7E9C1F4BD43900B614CE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C02B7E9D1F4BD43900B614CE /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C02B7E9E1F4BD43900B614CE /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		C02B7E9F1F4BD43900B614CE /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C02B7EA01F4BD43900B614CE /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C02B7EA11F4BD43900B614CE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C02B7EA21F4BD43900B614CE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C02B7EA31F4BD43900B614CE /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C02B7EA41F4BD43900B614CE /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C02B7EA51F4BD43900B614CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C02B7EA61F4BD43900B614CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C02B7EA81F4BD43900B614CE /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		C02B7EA91F4BD43900B614CE /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		C02B7EAA1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EAB1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EAC1F4BD43900B614CE /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EAD1F4BD43900B614CE /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EAE1F4BD43900B614CE /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EAF1F4BD43900B614CE /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EB01F4BD43900B614CE /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EB11F4BD43900B614CE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EB21F4BD43900B614CE /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EB31F4BD43900B614CE /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EB41F4BD43900B614CE /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EB51F4BD43900B614CE /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EB61F4BD43900B614CE /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EB71F4BD43900B614CE /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EB81F4BD43900B614CE /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		C02B7EB91F4BD43900B614CE /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		C02B7EBB1F4BD43900B614CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C02B7EBC1F4BD43900B614CE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C02B7EBD1F4BD43900B614CE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C02B7EBE1F4BD43900B614CE /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		C02B7EBF1F4BD43900B614CE /* RCDLiveKitUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveKitUtility.h; sourceTree = "<group>"; };
+		C02B7EC01F4BD43900B614CE /* RCDLiveKitUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveKitUtility.m; sourceTree = "<group>"; };
+		C02B7EE81F4BD44E00B614CE /* RCDLiveGiftMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveGiftMessage.h; sourceTree = "<group>"; };
+		C02B7EE91F4BD44E00B614CE /* RCDLiveGiftMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveGiftMessage.m; sourceTree = "<group>"; };
+		C02B7EEA1F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveMessageCellNotificationModel.h; sourceTree = "<group>"; };
+		C02B7EEB1F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveMessageCellNotificationModel.m; sourceTree = "<group>"; };
+		C02B7EEC1F4BD44E00B614CE /* RCDLiveMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveMessageModel.h; sourceTree = "<group>"; };
+		C02B7EED1F4BD44E00B614CE /* RCDLiveMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveMessageModel.m; sourceTree = "<group>"; };
+		C02B7EEE1F4BD44E00B614CE /* RCLikeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLikeMessage.h; sourceTree = "<group>"; };
+		C02B7EF01F4BD44E00B614CE /* RCDLiveKitCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveKitCommonDefine.h; sourceTree = "<group>"; };
+		C02B7EF31F4BD44E00B614CE /* RCDLiveEmojiBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveEmojiBoardView.h; sourceTree = "<group>"; };
+		C02B7EF41F4BD44E00B614CE /* RCDLiveEmojiBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveEmojiBoardView.m; sourceTree = "<group>"; };
+		C02B7EF51F4BD44E00B614CE /* RCDLiveEmojiPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveEmojiPageControl.h; sourceTree = "<group>"; };
+		C02B7EF61F4BD44E00B614CE /* RCDLiveEmojiPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveEmojiPageControl.m; sourceTree = "<group>"; };
+		C02B7EF81F4BD44E00B614CE /* RCDLiveInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveInputBar.h; sourceTree = "<group>"; };
+		C02B7EF91F4BD44E00B614CE /* RCDLiveInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveInputBar.m; sourceTree = "<group>"; };
+		C02B7EFA1F4BD44E00B614CE /* RCDLiveInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveInputView.h; sourceTree = "<group>"; };
+		C02B7EFB1F4BD44E00B614CE /* RCDLiveInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveInputView.m; sourceTree = "<group>"; };
+		C02B7F441F4BD53000B614CE /* RCDLiveMessageBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveMessageBaseCell.h; sourceTree = "<group>"; };
+		C02B7F451F4BD53000B614CE /* RCDLiveMessageBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveMessageBaseCell.m; sourceTree = "<group>"; };
+		C02B7F461F4BD53000B614CE /* RCDLiveMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveMessageCell.h; sourceTree = "<group>"; };
+		C02B7F471F4BD53000B614CE /* RCDLiveMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveMessageCell.m; sourceTree = "<group>"; };
+		C02B7F481F4BD53000B614CE /* RCDLiveMessageCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveMessageCellDelegate.h; sourceTree = "<group>"; };
+		C02B7F491F4BD53000B614CE /* RCDLiveTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveTextMessageCell.h; sourceTree = "<group>"; };
+		C02B7F4A1F4BD53000B614CE /* RCDLiveTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveTextMessageCell.m; sourceTree = "<group>"; };
+		C02B7F4B1F4BD53000B614CE /* RCDLiveTipMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveTipMessageCell.h; sourceTree = "<group>"; };
+		C02B7F4C1F4BD53000B614CE /* RCDLiveTipMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveTipMessageCell.m; sourceTree = "<group>"; };
+		C02B7F4D1F4BD53000B614CE /* RCDLiveGiftMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveGiftMessageCell.h; sourceTree = "<group>"; };
+		C02B7F4E1F4BD53000B614CE /* RCDLiveGiftMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveGiftMessageCell.m; sourceTree = "<group>"; };
+		C02B7F4F1F4BD53000B614CE /* RCDLivePortraitViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLivePortraitViewCell.h; sourceTree = "<group>"; };
+		C02B7F501F4BD53000B614CE /* RCDLivePortraitViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLivePortraitViewCell.m; sourceTree = "<group>"; };
+		C02B7F571F4BD5AC00B614CE /* RCDDanmaku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDDanmaku.h; sourceTree = "<group>"; };
+		C02B7F581F4BD5AC00B614CE /* RCDDanmaku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDDanmaku.m; sourceTree = "<group>"; };
+		C02B7F591F4BD5AC00B614CE /* RCDDanmakuInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDDanmakuInfo.h; sourceTree = "<group>"; };
+		C02B7F5A1F4BD5AC00B614CE /* RCDDanmakuInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDDanmakuInfo.m; sourceTree = "<group>"; };
+		C02B7F5B1F4BD5AC00B614CE /* RCDDanmakuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDDanmakuManager.h; sourceTree = "<group>"; };
+		C02B7F5C1F4BD5AC00B614CE /* RCDDanmakuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDDanmakuManager.m; sourceTree = "<group>"; };
+		C02B7F5D1F4BD5AC00B614CE /* UIView+RCDDanmaku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RCDDanmaku.h"; sourceTree = "<group>"; };
+		C02B7F5E1F4BD5AC00B614CE /* UIView+RCDDanmaku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RCDDanmaku.m"; sourceTree = "<group>"; };
+		C02B7F631F4BD5F500B614CE /* RCDLiveAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveAttributedLabel.h; sourceTree = "<group>"; };
+		C02B7F641F4BD5F500B614CE /* RCDLiveAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveAttributedLabel.m; sourceTree = "<group>"; };
+		C02B7F651F4BD5F500B614CE /* RCDLiveContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveContentView.h; sourceTree = "<group>"; };
+		C02B7F661F4BD5F500B614CE /* RCDLiveContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveContentView.m; sourceTree = "<group>"; };
+		C02B7F671F4BD5F500B614CE /* RCDLiveTipLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveTipLabel.h; sourceTree = "<group>"; };
+		C02B7F681F4BD5F500B614CE /* RCDLiveTipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveTipLabel.m; sourceTree = "<group>"; };
+		C02B7F691F4BD5F500B614CE /* RCDLiveCollectionViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveCollectionViewHeader.h; sourceTree = "<group>"; };
+		C02B7F6A1F4BD5F500B614CE /* RCDLiveCollectionViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveCollectionViewHeader.m; sourceTree = "<group>"; };
+		C02B7F6F1F4C03C900B614CE /* RCDLiveChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDLiveChatRoomViewController.h; sourceTree = "<group>"; };
+		C02B7F701F4C03C900B614CE /* RCDLiveChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDLiveChatRoomViewController.m; sourceTree = "<group>"; };
+		C02B7F721F4C05C300B614CE /* RoleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoleList.plist; sourceTree = "<group>"; };
 		C0362DC21F21DDAE004A8170 /* 直播test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0362DC61F21DDAE004A8170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0362DC81F21DDAE004A8170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +201,7 @@
 		C0362DE61F21DDAE004A8170 /* 直播testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0362DEA1F21DDAE004A8170 /* __testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __testUITests.m; sourceTree = "<group>"; };
 		C0362DEC1F21DDAE004A8170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD819EDAF4F9ADA143C7C5A1 /* Pods-直播test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-直播test/Pods-直播test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF73A2182D8848312987CF22 /* libPods-直播test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +230,204 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41E7F98147633D2A2B56DB0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD819EDAF4F9ADA143C7C5A1 /* Pods-直播test.debug.xcconfig */,
+				3B1EE4EC9F8E066446B2B7CA /* Pods-直播test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		598AA1D3B6A8769CFC537A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B8B096568116A4194F9A1 /* libPods-直播test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02B7E8F1F4BD43900B614CE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7E901F4BD43900B614CE /* AFNetworking */,
+				C02B7EBA1F4BD43900B614CE /* MBProgressHUD */,
+				C02B7EBF1F4BD43900B614CE /* RCDLiveKitUtility.h */,
+				C02B7EC01F4BD43900B614CE /* RCDLiveKitUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C02B7E901F4BD43900B614CE /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7E911F4BD43900B614CE /* AFNetworking */,
+				C02B7EA51F4BD43900B614CE /* LICENSE */,
+				C02B7EA61F4BD43900B614CE /* README.md */,
+				C02B7EA71F4BD43900B614CE /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C02B7E911F4BD43900B614CE /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7E921F4BD43900B614CE /* AFHTTPRequestOperation.h */,
+				C02B7E931F4BD43900B614CE /* AFHTTPRequestOperation.m */,
+				C02B7E941F4BD43900B614CE /* AFHTTPRequestOperationManager.h */,
+				C02B7E951F4BD43900B614CE /* AFHTTPRequestOperationManager.m */,
+				C02B7E961F4BD43900B614CE /* AFHTTPSessionManager.h */,
+				C02B7E971F4BD43900B614CE /* AFHTTPSessionManager.m */,
+				C02B7E981F4BD43900B614CE /* AFNetworking.h */,
+				C02B7E991F4BD43900B614CE /* AFNetworkReachabilityManager.h */,
+				C02B7E9A1F4BD43900B614CE /* AFNetworkReachabilityManager.m */,
+				C02B7E9B1F4BD43900B614CE /* AFSecurityPolicy.h */,
+				C02B7E9C1F4BD43900B614CE /* AFSecurityPolicy.m */,
+				C02B7E9D1F4BD43900B614CE /* AFURLConnectionOperation.h */,
+				C02B7E9E1F4BD43900B614CE /* AFURLConnectionOperation.m */,
+				C02B7E9F1F4BD43900B614CE /* AFURLRequestSerialization.h */,
+				C02B7EA01F4BD43900B614CE /* AFURLRequestSerialization.m */,
+				C02B7EA11F4BD43900B614CE /* AFURLResponseSerialization.h */,
+				C02B7EA21F4BD43900B614CE /* AFURLResponseSerialization.m */,
+				C02B7EA31F4BD43900B614CE /* AFURLSessionManager.h */,
+				C02B7EA41F4BD43900B614CE /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C02B7EA71F4BD43900B614CE /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EA81F4BD43900B614CE /* AFNetworkActivityIndicatorManager.h */,
+				C02B7EA91F4BD43900B614CE /* AFNetworkActivityIndicatorManager.m */,
+				C02B7EAA1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.h */,
+				C02B7EAB1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.m */,
+				C02B7EAC1F4BD43900B614CE /* UIAlertView+AFNetworking.h */,
+				C02B7EAD1F4BD43900B614CE /* UIAlertView+AFNetworking.m */,
+				C02B7EAE1F4BD43900B614CE /* UIButton+AFNetworking.h */,
+				C02B7EAF1F4BD43900B614CE /* UIButton+AFNetworking.m */,
+				C02B7EB01F4BD43900B614CE /* UIImage+AFNetworking.h */,
+				C02B7EB11F4BD43900B614CE /* UIImageView+AFNetworking.h */,
+				C02B7EB21F4BD43900B614CE /* UIImageView+AFNetworking.m */,
+				C02B7EB31F4BD43900B614CE /* UIKit+AFNetworking.h */,
+				C02B7EB41F4BD43900B614CE /* UIProgressView+AFNetworking.h */,
+				C02B7EB51F4BD43900B614CE /* UIProgressView+AFNetworking.m */,
+				C02B7EB61F4BD43900B614CE /* UIRefreshControl+AFNetworking.h */,
+				C02B7EB71F4BD43900B614CE /* UIRefreshControl+AFNetworking.m */,
+				C02B7EB81F4BD43900B614CE /* UIWebView+AFNetworking.h */,
+				C02B7EB91F4BD43900B614CE /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		C02B7EBA1F4BD43900B614CE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EBB1F4BD43900B614CE /* LICENSE */,
+				C02B7EBC1F4BD43900B614CE /* MBProgressHUD.h */,
+				C02B7EBD1F4BD43900B614CE /* MBProgressHUD.m */,
+				C02B7EBE1F4BD43900B614CE /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C02B7ED81F4BD44E00B614CE /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7ED91F4BD44E00B614CE /* Cell */,
+				C02B7EE71F4BD44E00B614CE /* Model */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		C02B7ED91F4BD44E00B614CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7F441F4BD53000B614CE /* RCDLiveMessageBaseCell.h */,
+				C02B7F451F4BD53000B614CE /* RCDLiveMessageBaseCell.m */,
+				C02B7F461F4BD53000B614CE /* RCDLiveMessageCell.h */,
+				C02B7F471F4BD53000B614CE /* RCDLiveMessageCell.m */,
+				C02B7F481F4BD53000B614CE /* RCDLiveMessageCellDelegate.h */,
+				C02B7F491F4BD53000B614CE /* RCDLiveTextMessageCell.h */,
+				C02B7F4A1F4BD53000B614CE /* RCDLiveTextMessageCell.m */,
+				C02B7F4B1F4BD53000B614CE /* RCDLiveTipMessageCell.h */,
+				C02B7F4C1F4BD53000B614CE /* RCDLiveTipMessageCell.m */,
+				C02B7F4D1F4BD53000B614CE /* RCDLiveGiftMessageCell.h */,
+				C02B7F4E1F4BD53000B614CE /* RCDLiveGiftMessageCell.m */,
+				C02B7F4F1F4BD53000B614CE /* RCDLivePortraitViewCell.h */,
+				C02B7F501F4BD53000B614CE /* RCDLivePortraitViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C02B7EE71F4BD44E00B614CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EE81F4BD44E00B614CE /* RCDLiveGiftMessage.h */,
+				C02B7EE91F4BD44E00B614CE /* RCDLiveGiftMessage.m */,
+				C02B7EEA1F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.h */,
+				C02B7EEB1F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.m */,
+				C02B7EEC1F4BD44E00B614CE /* RCDLiveMessageModel.h */,
+				C02B7EED1F4BD44E00B614CE /* RCDLiveMessageModel.m */,
+				C02B7EEE1F4BD44E00B614CE /* RCLikeMessage.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C02B7EEF1F4BD44E00B614CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EF01F4BD44E00B614CE /* RCDLiveKitCommonDefine.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C02B7EF11F4BD44E00B614CE /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EF21F4BD44E00B614CE /* EmojiView */,
+				C02B7EF71F4BD44E00B614CE /* InputBar */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C02B7EF21F4BD44E00B614CE /* EmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EF31F4BD44E00B614CE /* RCDLiveEmojiBoardView.h */,
+				C02B7EF41F4BD44E00B614CE /* RCDLiveEmojiBoardView.m */,
+				C02B7EF51F4BD44E00B614CE /* RCDLiveEmojiPageControl.h */,
+				C02B7EF61F4BD44E00B614CE /* RCDLiveEmojiPageControl.m */,
+			);
+			path = EmojiView;
+			sourceTree = "<group>";
+		};
+		C02B7EF71F4BD44E00B614CE /* InputBar */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7EF81F4BD44E00B614CE /* RCDLiveInputBar.h */,
+				C02B7EF91F4BD44E00B614CE /* RCDLiveInputBar.m */,
+				C02B7EFA1F4BD44E00B614CE /* RCDLiveInputView.h */,
+				C02B7EFB1F4BD44E00B614CE /* RCDLiveInputView.m */,
+			);
+			path = InputBar;
+			sourceTree = "<group>";
+		};
+		C02B7F081F4BD44E00B614CE /* DanmuKu */ = {
+			isa = PBXGroup;
+			children = (
+				C02B7F571F4BD5AC00B614CE /* RCDDanmaku.h */,
+				C02B7F581F4BD5AC00B614CE /* RCDDanmaku.m */,
+				C02B7F591F4BD5AC00B614CE /* RCDDanmakuInfo.h */,
+				C02B7F5A1F4BD5AC00B614CE /* RCDDanmakuInfo.m */,
+				C02B7F5B1F4BD5AC00B614CE /* RCDDanmakuManager.h */,
+				C02B7F5C1F4BD5AC00B614CE /* RCDDanmakuManager.m */,
+				C02B7F5D1F4BD5AC00B614CE /* UIView+RCDDanmaku.h */,
+				C02B7F5E1F4BD5AC00B614CE /* UIView+RCDDanmaku.m */,
+			);
+			path = DanmuKu;
+			sourceTree = "<group>";
+		};
 		C0362DB91F21DDAE004A8170 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +435,8 @@
 				C0362DDE1F21DDAE004A8170 /* 直播testTests */,
 				C0362DE91F21DDAE004A8170 /* 直播testUITests */,
 				C0362DC31F21DDAE004A8170 /* Products */,
+				41E7F98147633D2A2B56DB0C /* Pods */,
+				598AA1D3B6A8769CFC537A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +457,27 @@
 				C0362DC91F21DDAE004A8170 /* AppDelegate.m */,
 				C0362DCB1F21DDAE004A8170 /* ViewController.h */,
 				C0362DCC1F21DDAE004A8170 /* ViewController.m */,
+				C01508411F25939E00EFBDD3 /* PLPlayerViewController.h */,
+				C01508421F25939E00EFBDD3 /* PLPlayerViewController.m */,
+				C01508431F25939E00EFBDD3 /* PLPlayerViewController.xib */,
+				C02B7F6F1F4C03C900B614CE /* RCDLiveChatRoomViewController.h */,
+				C02B7F701F4C03C900B614CE /* RCDLiveChatRoomViewController.m */,
+				C02B7E8C1F4BD3DF00B614CE /* RCDLive.h */,
+				C02B7E8D1F4BD3DF00B614CE /* RCDLive.m */,
+				C02B7F721F4C05C300B614CE /* RoleList.plist */,
+				C02B7E8F1F4BD43900B614CE /* Utility */,
+				C02B7ED81F4BD44E00B614CE /* ChatRoom */,
+				C02B7EEF1F4BD44E00B614CE /* Common */,
+				C02B7EF11F4BD44E00B614CE /* CustomViews */,
+				C02B7F631F4BD5F500B614CE /* RCDLiveAttributedLabel.h */,
+				C02B7F641F4BD5F500B614CE /* RCDLiveAttributedLabel.m */,
+				C02B7F651F4BD5F500B614CE /* RCDLiveContentView.h */,
+				C02B7F661F4BD5F500B614CE /* RCDLiveContentView.m */,
+				C02B7F671F4BD5F500B614CE /* RCDLiveTipLabel.h */,
+				C02B7F681F4BD5F500B614CE /* RCDLiveTipLabel.m */,
+				C02B7F691F4BD5F500B614CE /* RCDLiveCollectionViewHeader.h */,
+				C02B7F6A1F4BD5F500B614CE /* RCDLiveCollectionViewHeader.m */,
+				C02B7F081F4BD44E00B614CE /* DanmuKu */,
 				C0362DCE1F21DDAE004A8170 /* Main.storyboard */,
 				C0362DD11F21DDAE004A8170 /* Assets.xcassets */,
 				C0362DD31F21DDAE004A8170 /* LaunchScreen.storyboard */,
@@ -147,9 +520,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0362DEF1F21DDAE004A8170 /* Build configuration list for PBXNativeTarget "直播test" */;
 			buildPhases = (
+				7E1A8559687C41D4D1D8ECD9 /* [CP] Check Pods Manifest.lock */,
 				C0362DBE1F21DDAE004A8170 /* Sources */,
 				C0362DBF1F21DDAE004A8170 /* Frameworks */,
 				C0362DC01F21DDAE004A8170 /* Resources */,
+				33BA97ED3E9A60B63F0FD59D /* [CP] Embed Pods Frameworks */,
+				85AED628BF926397826F5639 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +583,7 @@
 				TargetAttributes = {
 					C0362DC11F21DDAE004A8170 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7J3H3Y24CT;
 						ProvisioningStyle = Automatic;
 					};
 					C0362DDA1F21DDAE004A8170 = {
@@ -246,9 +623,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02B7ED41F4BD43900B614CE /* LICENSE in Resources */,
+				C02B7F731F4C05C300B614CE /* RoleList.plist in Resources */,
 				C0362DD51F21DDAE004A8170 /* LaunchScreen.storyboard in Resources */,
 				C0362DD21F21DDAE004A8170 /* Assets.xcassets in Resources */,
 				C0362DD01F21DDAE004A8170 /* Main.storyboard in Resources */,
+				C01508451F25939E00EFBDD3 /* PLPlayerViewController.xib in Resources */,
+				C02B7ECA1F4BD43900B614CE /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +649,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33BA97ED3E9A60B63F0FD59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播test/Pods-直播test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1A8559687C41D4D1D8ECD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85AED628BF926397826F5639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播test/Pods-直播test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0362DBE1F21DDAE004A8170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02B7F6B1F4BD5F500B614CE /* RCDLiveAttributedLabel.m in Sources */,
+				C02B7EC61F4BD43900B614CE /* AFURLConnectionOperation.m in Sources */,
+				C02B7EC11F4BD43900B614CE /* AFHTTPRequestOperation.m in Sources */,
+				C02B7F191F4BD44E00B614CE /* RCDLiveMessageModel.m in Sources */,
+				C02B7F531F4BD53000B614CE /* RCDLiveTextMessageCell.m in Sources */,
+				C02B7EC41F4BD43900B614CE /* AFNetworkReachabilityManager.m in Sources */,
+				C02B7ED71F4BD43900B614CE /* RCDLiveKitUtility.m in Sources */,
+				C02B7EC91F4BD43900B614CE /* AFURLSessionManager.m in Sources */,
+				C02B7F561F4BD53000B614CE /* RCDLivePortraitViewCell.m in Sources */,
+				C02B7F1D1F4BD44E00B614CE /* RCDLiveInputView.m in Sources */,
+				C02B7F1A1F4BD44E00B614CE /* RCDLiveEmojiBoardView.m in Sources */,
+				C02B7F171F4BD44E00B614CE /* RCDLiveGiftMessage.m in Sources */,
+				C02B7F181F4BD44E00B614CE /* RCDLiveMessageCellNotificationModel.m in Sources */,
+				C02B7F541F4BD53000B614CE /* RCDLiveTipMessageCell.m in Sources */,
+				C02B7ECC1F4BD43900B614CE /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C02B7EC71F4BD43900B614CE /* AFURLRequestSerialization.m in Sources */,
 				C0362DCD1F21DDAE004A8170 /* ViewController.m in Sources */,
+				C02B7F5F1F4BD5AC00B614CE /* RCDDanmaku.m in Sources */,
+				C02B7F6D1F4BD5F500B614CE /* RCDLiveTipLabel.m in Sources */,
+				C02B7F521F4BD53000B614CE /* RCDLiveMessageCell.m in Sources */,
+				C02B7ED51F4BD43900B614CE /* MBProgressHUD.m in Sources */,
+				C02B7F6C1F4BD5F500B614CE /* RCDLiveContentView.m in Sources */,
+				C02B7ED11F4BD43900B614CE /* UIProgressView+AFNetworking.m in Sources */,
+				C02B7EC81F4BD43900B614CE /* AFURLResponseSerialization.m in Sources */,
+				C02B7F1C1F4BD44E00B614CE /* RCDLiveInputBar.m in Sources */,
+				C02B7E8E1F4BD3DF00B614CE /* RCDLive.m in Sources */,
 				C0362DCA1F21DDAE004A8170 /* AppDelegate.m in Sources */,
+				C02B7F551F4BD53000B614CE /* RCDLiveGiftMessageCell.m in Sources */,
+				C02B7F511F4BD53000B614CE /* RCDLiveMessageBaseCell.m in Sources */,
+				C02B7ECF1F4BD43900B614CE /* UIButton+AFNetworking.m in Sources */,
+				C02B7F621F4BD5AC00B614CE /* UIView+RCDDanmaku.m in Sources */,
+				C02B7ED01F4BD43900B614CE /* UIImageView+AFNetworking.m in Sources */,
+				C02B7EC21F4BD43900B614CE /* AFHTTPRequestOperationManager.m in Sources */,
+				C02B7EC51F4BD43900B614CE /* AFSecurityPolicy.m in Sources */,
+				C02B7ECE1F4BD43900B614CE /* UIAlertView+AFNetworking.m in Sources */,
+				C02B7F611F4BD5AC00B614CE /* RCDDanmakuManager.m in Sources */,
+				C02B7ED31F4BD43900B614CE /* UIWebView+AFNetworking.m in Sources */,
+				C02B7ECD1F4BD43900B614CE /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				C02B7ED61F4BD43900B614CE /* README.mdown in Sources */,
 				C0362DC71F21DDAE004A8170 /* main.m in Sources */,
+				C02B7ED21F4BD43900B614CE /* UIRefreshControl+AFNetworking.m in Sources */,
+				C02B7F1B1F4BD44E00B614CE /* RCDLiveEmojiPageControl.m in Sources */,
+				C02B7ECB1F4BD43900B614CE /* README.md in Sources */,
+				C01508441F25939E00EFBDD3 /* PLPlayerViewController.m in Sources */,
+				C02B7EC31F4BD43900B614CE /* AFHTTPSessionManager.m in Sources */,
+				C02B7F6E1F4BD5F500B614CE /* RCDLiveCollectionViewHeader.m in Sources */,
+				C02B7F601F4BD5AC00B614CE /* RCDDanmakuInfo.m in Sources */,
+				C02B7F711F4C03C900B614CE /* RCDLiveChatRoomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,22 +896,54 @@
 		};
 		C0362DF01F21DDAE004A8170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD819EDAF4F9ADA143C7C5A1 /* Pods-直播test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J3H3Y24CT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/KSY/Engine",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/QCLOUD/Engine",
+				);
 				INFOPLIST_FILE = "直播test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--test";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/LE/Engine/lib",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/QINIU/Engine/lib",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/UCLOUD",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.-----test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		C0362DF11F21DDAE004A8170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1EE4EC9F8E066446B2B7CA /* Pods-直播test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J3H3Y24CT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/KSY/Engine",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/QCLOUD/Engine",
+				);
 				INFOPLIST_FILE = "直播test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--test";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/LE/Engine/lib",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/QINIU/Engine/lib",
+					"$(PROJECT_DIR)/直播test/RongChatRoomDemo/Live/UCLOUD",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.-----test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +1013,7 @@
 				C0362DF11F21DDAE004A8170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0362DF21F21DDAE004A8170 /* Build configuration list for PBXNativeTarget "直播testTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +1022,7 @@
 				C0362DF41F21DDAE004A8170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0362DF51F21DDAE004A8170 /* Build configuration list for PBXNativeTarget "直播testUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +1031,7 @@
 				C0362DF71F21DDAE004A8170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

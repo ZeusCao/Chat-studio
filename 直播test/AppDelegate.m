@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <RongIMLib/RongIMLib.h>
+#import "RCDLive.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,56 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 初始化融云
+    [[RCDLive sharedRCDLive] initRongCloud:RONGCLOUD_IM_APPKEY];
+    
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"RoleList" ofType:@"plist"];
+    NSMutableDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+    _userList = [[NSMutableArray alloc]init];
+    RCUserInfo *user = [self parseUserInfoFormDic:[data objectForKey:@"User1"]];
+    [_userList  addObject:user];
+    RCUserInfo *user2 = [self parseUserInfoFormDic:[data objectForKey:@"User2"]];
+    [_userList  addObject:user2];
+    RCUserInfo *user3 = [self parseUserInfoFormDic:[data objectForKey:@"User3"]];
+    [_userList  addObject:user3];
+    RCUserInfo *user4 = [self parseUserInfoFormDic:[data objectForKey:@"User4"]];
+    [_userList  addObject:user4];
+    RCUserInfo *user5 = [self parseUserInfoFormDic:[data objectForKey:@"User5"]];
+    [_userList  addObject:user5];
+    RCUserInfo *user6 = [self parseUserInfoFormDic:[data objectForKey:@"User6"]];
+    [_userList  addObject:user6];
+    RCUserInfo *user7 = [self parseUserInfoFormDic:[data objectForKey:@"User7"]];
+    [_userList  addObject:user7];
+
+    
+   
+    
+    
     return YES;
+}
+
+-(RCUserInfo *)parseUserInfoFormDic:(NSDictionary *)dic{
+    RCUserInfo *user = [[RCUserInfo alloc]init];
+    user.userId = [dic objectForKey: @"id" ];
+    user.name = [dic objectForKey: @"name" ];
+    user.portraitUri = [dic objectForKey: @"icon" ];
+    return user;
+}
+
+
+#pragma mark --- 只让播放界面时支持横屏
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    if (self.allowRotation) {
+       return UIInterfaceOrientationMaskAllButUpsideDown;
+       // return UIInterfaceOrientationLandscapeRight;
+    }
+    else
+    {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+
 }
 
 

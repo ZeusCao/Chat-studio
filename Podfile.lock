@@ -1,0 +1,36 @@
+PODS:
+  - HappyDNS (0.3.10)
+  - PLPlayerKit (2.4.3):
+    - HappyDNS (~> 0.3.10)
+  - RongCloudIM (2.8.11):
+    - RongCloudIM/CallKit (= 2.8.11)
+    - RongCloudIM/CallLib (= 2.8.11)
+    - RongCloudIM/IMKit (= 2.8.11)
+    - RongCloudIM/IMLib (= 2.8.11)
+    - RongCloudIM/RedPacket (= 2.8.11)
+    - RongCloudIM/Sticker (= 2.8.11)
+  - RongCloudIM/CallKit (2.8.11):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.11):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.11):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.11)
+  - RongCloudIM/RedPacket (2.8.11):
+    - RongCloudIM/IMKit
+  - RongCloudIM/Sticker (2.8.11):
+    - RongCloudIM/IMKit
+
+DEPENDENCIES:
+  - PLPlayerKit (~> 2.4.3)
+  - RongCloudIM (~> 2.8.11)
+
+SPEC CHECKSUMS:
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  PLPlayerKit: 6575f900d3a1c3680e3fd8907338683d0eedcd79
+  RongCloudIM: b2b5aead4dca37ad8c2c06cea57d0a7321362cd0
+
+PODFILE CHECKSUM: 66abc50b7f375585d0f90e5c9801fac9ce5ac9ff
+
+COCOAPODS: 1.2.0

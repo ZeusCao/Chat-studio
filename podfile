@@ -1,0 +1,5 @@
+platform :ios,'8.0'
+target '直播test' do
+pod 'PLPlayerKit', '~> 2.4.3'
+pod 'RongCloudIM', '~> 2.8.11'
+end

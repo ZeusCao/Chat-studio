@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#define RONGCLOUD_IM_APPKEY @"k51hidwqkn0lb"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic,strong)NSMutableArray *userList;
+@property (nonatomic, assign) BOOL allowRotation;
 
 @end
 
